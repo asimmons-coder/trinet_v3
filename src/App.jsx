@@ -18,12 +18,24 @@ const App = () => {
         color: 'white',
       }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-          <img 
-            src="https://storage.googleapis.com/boon-public-assets/Wordmark_White.png" 
-            alt="Boon" 
-            style={{ height: '28px', marginBottom: '32px' }}
-          />
-          
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            marginBottom: '32px',
+          }}>
+            <img
+              src="https://storage.googleapis.com/boon-public-assets/Wordmark_White.png"
+              alt="Boon"
+              style={{ height: '28px' }}
+            />
+            <img
+              src="https://storage.googleapis.com/boon-public-assets/trinet%20logo.png"
+              alt="TriNet"
+              style={{ height: '32px' }}
+            />
+          </div>
+
           <div style={{
             fontSize: '12px',
             fontWeight: '600',
