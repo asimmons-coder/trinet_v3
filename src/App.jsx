@@ -21,7 +21,7 @@ const App = () => {
           <div style={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'space-between',
+            gap: '16px',
             marginBottom: '32px',
           }}>
             <img
